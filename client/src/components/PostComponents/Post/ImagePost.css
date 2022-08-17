@@ -1,0 +1,39 @@
+.post.container.image-post {
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+}
+
+.post.container.image-post .info-box {
+  margin-bottom: 20px;
+}
+
+.post.container.image-post .image.container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post.container.image-post .post-image {
+  max-height: 600px;
+  text-align: center;
+}
+
+.post.container.image-post .blog-text .caption {
+  margin-bottom: 20px;
+}
+
+.post.container.image-post .admin-btns {
+  float: right;
+}
+
+.post.container.image-post .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+
+.post.container.image-post .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--purple);
+}
+
+.post.container.image-post .MuiFormLabel-root.Mui-focused {
+  color: var(--purple);
+}

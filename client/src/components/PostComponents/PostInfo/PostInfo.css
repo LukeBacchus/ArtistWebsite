@@ -1,0 +1,12 @@
+.post-info.container .post-stats span {
+  padding: 10px;
+}
+
+.post-info .post-action .liked {
+  color: var(--red);
+}
+
+.post-info.container .post-action,
+.post-info.container .post-stats {
+  display: inline-block;
+}

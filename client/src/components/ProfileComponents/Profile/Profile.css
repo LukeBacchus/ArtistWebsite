@@ -1,0 +1,22 @@
+.profile.container .profile-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: initial;
+}
+
+.profile.container .profile-links button {
+  background: none;
+  border: none;
+  font: 16px var(--default-font);
+  cursor: pointer;
+}
+
+.profile.container .profile-links button:hover {
+  color: var(--purple);
+  text-decoration: underline;
+}
+
+.profile.container .profile-text,
+.profile.container .profile-links {
+  padding-left: 20px;
+}

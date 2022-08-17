@@ -1,0 +1,94 @@
+{
+  "name": "team10",
+  "version": "1.0.0",
+  "description": "Team project for CSC309",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm install && cd client && npm install && cd ..",
+    "build-run": "cd client && npm run build && cd .. && node server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-fall-2020/team10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-fall-2020/team10/issues"
+  },
+  "homepage": "https://github.com/csc309-fall-2020/team10#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.17",
+    "validator": "^13.1.17",
+    "cloudinary": "^1.23.0",
+    "connect-multiparty": "^2.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "comma-dangle": [
+        "warn",
+        "never"
+      ],
+      "curly": [
+        "warn",
+        "all"
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "max-len": [
+        "warn",
+        {
+          "code": 120,
+          "ignoreStrings": true
+        }
+      ],
+      "multiline-comment-style": "warn",
+      "no-else-return": "warn",
+      "no-trailing-spaces": "error",
+      "no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "args": "after-used",
+          "ignoreRestSiblings": false
+        }
+      ],
+      "quotes": [
+        "warn",
+        "single"
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{js,css,md}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "2.1.2"
+  }
+}

@@ -1,0 +1,44 @@
+.post.container.blog-post {
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+}
+
+.post.container.blog-post.edit {
+  cursor: default;
+}
+
+.blog-sectionh {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.blog-text {
+  padding: 10px;
+}
+
+.blog-text .edit-title {
+  margin-bottom: 20px;
+}
+
+#blog-image {
+  padding: 10px;
+  width: 500px;
+  height: 400px;
+}
+
+.post.container.blog-post .admin-btns {
+  float: right;
+}
+
+.post.container.blog-post .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+
+.post.container.blog-post .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--purple);
+}
+
+.post.container.blog-post .MuiFormLabel-root.Mui-focused {
+  color: var(--purple);
+}

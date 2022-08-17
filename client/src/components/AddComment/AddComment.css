@@ -1,0 +1,23 @@
+.add-comment-container .input {
+  margin-bottom: 20px;
+}
+
+.add-comment-container .MuiFormLabel-root {
+  color: var(--grey) !important;
+}
+
+.add-comment-container .MuiOutlinedInput-notchedOutline {
+  border-color: var(--light-grey) !important;
+}
+
+.add-comment-container .MuiTextField-root {
+  width: 100%;
+}
+
+.add-comment-container .MuiTouchRipple-root {
+  color: white;
+}
+
+.add-comment-container .MuiButton-containedPrimary:not(.Mui-disabled) {
+  background-color: var(--purple);
+}

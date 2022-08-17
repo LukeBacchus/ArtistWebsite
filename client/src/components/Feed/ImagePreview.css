@@ -1,0 +1,21 @@
+.preview.container {
+  border: 1px solid #e8e8e8;
+  padding: 20px;
+  max-width: 200px;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.preview.container .post-image {
+  width: 100%;
+}
+
+.preview.container .image.container {
+  text-align: center;
+}
+
+.preview.container .post-image {
+  max-height: 600px;
+  text-align: center;
+}

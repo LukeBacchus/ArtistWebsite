@@ -1,0 +1,32 @@
+.profile.container.main .profile-header {
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 1px 5px #999;
+  background-color: var(--purple);
+}
+
+.profile.container.main .profile-header .profile-url {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.profile.container.main .container.border {
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+}
+
+.profile.container.main .info-box.container,
+.profile.container.main #subscribe-btn {
+  display: inline-block;
+}
+
+.profile.container.main #subscribe-btn {
+  float: right;
+  margin-top: 2px;
+}
+
+.profile.container.main #subscribe-btn button {
+  background-color: white;
+  color: var(--purple);
+}

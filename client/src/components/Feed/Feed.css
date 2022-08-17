@@ -1,0 +1,7 @@
+.feed.container .post:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.feed.container .post {
+  cursor: pointer;
+}

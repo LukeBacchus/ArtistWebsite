@@ -1,0 +1,64 @@
+#jumplist li {
+  display: inline-block;
+}
+
+#header-container {
+  background-color: white;
+  width: calc(100vw);
+  top: 0px;
+  height: 65px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999999;
+}
+
+#header {
+  background: linear-gradient(217deg, var(--orange), rgb(255, 0, 0, 0.07) 70.71%),
+    linear-gradient(127deg, var(--purple), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, var(--blue), rgba(0, 0, 255, 0) 70.71%);
+  padding: 10px;
+  font-weight: bolder;
+}
+
+#header div {
+  display: inline-block;
+}
+
+#header div#mainsearch {
+  float: right;
+  margin-top: 2px;
+}
+
+#header div#logout {
+  float: right;
+  margin-top: 2px;
+}
+
+#jumplist a,
+#jumplist .MuiButton-label {
+  color: white;
+  text-decoration: none !important;
+  padding: 4px;
+}
+
+#header .MuiIconButton-root {
+  color: white !important;
+  padding: 8px !important;
+}
+
+#header .MuiFormLabel-root,
+#header .MuiTouchRipple-root {
+  color: white !important;
+}
+
+#header .MuiInputBase-input {
+  color: white !important;
+}
+
+#header .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+#header .MuiButton-textPrimary:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+}

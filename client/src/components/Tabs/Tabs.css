@@ -1,0 +1,19 @@
+div#profile-tabs {
+  text-align: center;
+}
+
+div#profile-tabs ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+}
+
+div#profile-tabs ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+div#profile-tabs ul li.active {
+  border-bottom: 1px solid black;
+}

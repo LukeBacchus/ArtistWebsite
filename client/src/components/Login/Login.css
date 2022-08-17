@@ -1,0 +1,60 @@
+.login.container {
+  height: calc(100vh - 105px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login.container .login-content {
+  margin-top: -80px;
+  text-align: center;
+  width: 400px;
+}
+
+.login.container #error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+#login-form #action-btns div {
+  display: inline-block;
+}
+
+#login-form #action-btns #switch-btn {
+  float: left;
+}
+
+#login-form #action-btns #login-btn {
+  float: right;
+}
+
+#login-form a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#login-form .input {
+  margin-bottom: 20px;
+}
+
+#login-form input {
+  width: 350px;
+}
+
+#login-form .MuiTouchRipple-root {
+  color: white;
+}
+
+#login-form .MuiFormLabel-root {
+  color: var(--grey) !important;
+}
+
+#login-form .MuiButton-contained:not(.Mui-disabled) {
+  background-color: var(--purple);
+  color: white;
+}
+
+#login-form .MuiOutlinedInput-notchedOutline {
+  border-color: var(--grey) !important;
+}

@@ -1,0 +1,33 @@
+.info-box.container {
+  height: 42px;
+}
+
+.user-icon {
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  float: left;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.user-name {
+  color: white;
+  display: inline-block;
+  line-height: 42px;
+}
+
+.info-box a,
+.info-box a:visited {
+  color: #202020;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.info-box a:hover {
+  text-decoration: underline;
+}
+
+.info-box a.disabled {
+  pointer-events: none;
+}
